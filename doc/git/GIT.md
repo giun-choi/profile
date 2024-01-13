@@ -1,5 +1,9 @@
 [git 문서 링크](https://git-scm.com/docs/git)
 
+## 원격 저장소에 올리는 과정
+
+git add -> git commit -> git push
+
 ## git pull
 
 원격 저장소의 데이터를 로컬 저장소에 최신화합니다.
