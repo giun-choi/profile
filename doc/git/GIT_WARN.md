@@ -8,3 +8,12 @@ OS마다 사용되는 줄바꿈 문자열이 다르기 때문에 git에서 어�
 git config (--global) core.autocrlf true
 
 CRLF 를 사용하므로 저장소에서 가져올 때 LF 를 CRLF 로 변경하고 저장소로 보낼 때는 CRLF 를 LF 로 변경하도록 설정한다.
+
+## unable to auto-detect email address
+
+git bash를 관리자 권한으로 실행한다.
+
+git config --global user.email "이메일"
+git config --global user.name "이름"
+
+다음과 같이 차례대로 입력하여 설정한다.
